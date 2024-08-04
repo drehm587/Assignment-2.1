@@ -1,0 +1,47 @@
+/* this makes the background get the repeating circles and adds an interesting experience for the user*/
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
+
+/* this formats the p tag utilized in the html file*/
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    font-family: fantasy;
+    color: black;
+    font-size: 35px;
+}
+
+/* this reformats the buttons to stand out a little more against the body settings*/
+button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    color: darkred;
+    border-color: rgb(250, 244, 244);
+    border-style: groove;
+    font-family: fantasy;
+    
+}
+
+/* this customizes the p2 tag*/
+p2 {
+    display:block;
+    margin: 0 auto;
+    width: 200px;
+    font-family: fantasy;
+    color: black;
+}
+
+/* this works in conjunction with the "class" identified used in the html page. it changes the original viewership of the responses generated from the buttons*/
+.response-text {
+    text-align: center;    
+    font-family: fantasy;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
